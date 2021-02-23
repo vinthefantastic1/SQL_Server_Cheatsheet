@@ -19,5 +19,5 @@
     SELECT FORMAT (getdate(), 'MM-dd-yyyy') as date
     
 ## Number formatting
-    Select Format(25302.25,'#,##0')
+    Select Format(12345.67,'#,##0.00')  
 
