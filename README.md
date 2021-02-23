@@ -1,5 +1,6 @@
 # SQL Server Cheatsheet
 
+## Date formatting
 
     dd - day of month from 01-31
     dddd - day long version
@@ -17,6 +18,6 @@
     
     SELECT FORMAT (getdate(), 'MM-dd-yyyy') as date
     
-# format number
+## Number formatting
     Select Format(25302.25,'#,##0')
 
